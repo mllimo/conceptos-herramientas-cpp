@@ -39,6 +39,5 @@ int main(int argc, char const *argv[]) {
   SumoUno(valor);
   std::cout << "Valor de la variable después de la función " << valor << '\n';
 
-
   return 0;
 }
