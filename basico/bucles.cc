@@ -19,6 +19,10 @@
 
 */
 
+void Imprimir() {
+  std::cout << "HOla";
+}
+
 int main(int argc, char const *argv[]) {
   // Suma total de número del 0 al 100
   int resultado = 0;
@@ -27,6 +31,7 @@ int main(int argc, char const *argv[]) {
   }
   std::cout << "Resultado: " << resultado << '\n';
   resultado = 0;
+  Imprimir();
 
   // Problema con bucle while
   int j = 0;

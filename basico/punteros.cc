@@ -16,5 +16,6 @@ int main(int argc, char const *argv[]) {
 
   puntero_int = new int[13];
   delete [] puntero_int;
+
   return 0;
 }
