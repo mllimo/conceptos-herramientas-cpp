@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/limo/Documentos/c++/clases/cmake/src/main_point.cc
+point2d.h
+/home/limo/Documentos/c++/clases/cmake/src/point2d.h
+
+/home/limo/Documentos/c++/clases/cmake/src/point2d.cc
+point2d.h
+/home/limo/Documentos/c++/clases/cmake/src/point2d.h
+
+/home/limo/Documentos/c++/clases/cmake/src/point2d.h
+iostream
+-
+
