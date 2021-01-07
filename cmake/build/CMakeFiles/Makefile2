@@ -97,6 +97,43 @@ clean: CMakeFiles/point_program.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/complejo.dir
+
+# All Build rule for target.
+CMakeFiles/complejo.dir/all:
+	$(MAKE) -f CMakeFiles/complejo.dir/build.make CMakeFiles/complejo.dir/depend
+	$(MAKE) -f CMakeFiles/complejo.dir/build.make CMakeFiles/complejo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/limo/Documentos/c++/clases/cmake/build/CMakeFiles --progress-num= "Built target complejo"
+.PHONY : CMakeFiles/complejo.dir/all
+
+# Include target in all.
+all: CMakeFiles/complejo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/complejo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/limo/Documentos/c++/clases/cmake/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/complejo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/limo/Documentos/c++/clases/cmake/build/CMakeFiles 0
+.PHONY : CMakeFiles/complejo.dir/rule
+
+# Convenience name for target.
+complejo: CMakeFiles/complejo.dir/rule
+
+.PHONY : complejo
+
+# clean rule for target.
+CMakeFiles/complejo.dir/clean:
+	$(MAKE) -f CMakeFiles/complejo.dir/build.make CMakeFiles/complejo.dir/clean
+.PHONY : CMakeFiles/complejo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/complejo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -5,6 +5,11 @@ Point2d::Point2d(float x, float y) {
   this->y = y;
 }
 
+Point2d::Point2d() {
+  x = 0;
+  y = 0;
+}
+
 std::ostream& Point2d::Print(std::ostream& os) {
   os << "X: " << x << " Y: " << y;
   return os;

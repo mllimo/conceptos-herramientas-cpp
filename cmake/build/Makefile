@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/limo/Documentos/c++/clases/cmake/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,6 +122,19 @@ point_program: cmake_check_build_system
 point_program/fast:
 	$(MAKE) -f CMakeFiles/point_program.dir/build.make CMakeFiles/point_program.dir/build
 .PHONY : point_program/fast
+
+#=============================================================================
+# Target rules for targets named complejo
+
+# Build rule for target.
+complejo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 complejo
+.PHONY : complejo
+
+# fast build rule for target.
+complejo/fast:
+	$(MAKE) -f CMakeFiles/complejo.dir/build.make CMakeFiles/complejo.dir/build
+.PHONY : complejo/fast
 
 src/main_point.o: src/main_point.cc.o
 
@@ -183,9 +196,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... point_program"
 	@echo "... edit_cache"
+	@echo "... point_program"
+	@echo "... rebuild_cache"
+	@echo "... complejo"
 	@echo "... src/main_point.o"
 	@echo "... src/main_point.i"
 	@echo "... src/main_point.s"

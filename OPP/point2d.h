@@ -1,10 +1,12 @@
-#pragma once
+#ifndef POINT2D_H_
+#define POINT2D_H_
 
 #include <iostream>
 
 class Point2d {
  public:
   Point2d(float x, float y);
+  Point2d();
 
   std::ostream& Print(std::ostream& os);
 
@@ -15,3 +17,5 @@ class Point2d {
   float x;
   float y;
 };
+
+#endif
