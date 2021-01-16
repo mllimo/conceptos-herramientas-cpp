@@ -3,7 +3,7 @@
 #include <vector>
 
 /*
-[ Clausura de captura ] ( argumentos ) -> tipo de retoro {
+[ Clausura de captura ] ( argumentos ) -> tipo de retorno {
   <codigo>
 }
 */
