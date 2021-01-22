@@ -13,8 +13,8 @@ Haz un programa que dado dos números te devuelva la suma de ambos, si estos son
 # **pow:**
 Crea un programa que sea capaz de hacer la [potenciación](https://es.wikipedia.org/wiki/Potenciaci%C3%B3n) de un número.
 
-# **multi-divi:**
-Genera un programa que lea por linea de comandos dos argumentos y haga la multiplicación y la división sin usar los operadores "*" y "/" sobre los números dados.
+# **multiplicacion:**
+Genera un programa que haga la multiplicación y la división sin usar los operadores "*" y sobre los números dados.
 
 # **suma-vector:**
 Haz un programa que dado diez [vectores](https://es.cppreference.com/w/cpp/container/vector) de números le diga al usuario la suma de los elementos de cada uno de ellos.
