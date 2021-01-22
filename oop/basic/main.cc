@@ -5,6 +5,7 @@ void EjemploCuadrado();
 void EjemploPunto();
 
 int main(int argc, char const *argv[]) {
+  int a;
   EjemploCuadrado();
   EjemploPunto();
   return 0;
