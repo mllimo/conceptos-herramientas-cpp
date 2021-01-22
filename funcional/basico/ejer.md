@@ -1,3 +1,0 @@
- - Decir si un string contiene a todas las vocales del abecedario
-- Invertir un string
-- Escribir un programa que muestre en pantalla los números del 1 al 100, si es par por la palabra “fizz”, si es impar por “buzz"
