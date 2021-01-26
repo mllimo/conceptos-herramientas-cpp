@@ -1,7 +1,7 @@
 #include <iostream>
 // Crea un programa que dado diez [arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm) de números le diga al usuario cual es el mayor de cada uno de ellos.
 
-#define TAMANIO 4  // no hace falta el ; pq es una constante
+#define TAMANIO 4
 
 int ComparadorMayor(int array[TAMANIO]);  // o int ComparadorMayor(int* array);
 

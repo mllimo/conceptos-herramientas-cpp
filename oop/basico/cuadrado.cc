@@ -5,6 +5,11 @@ Cuadrado::Cuadrado(float ancho, float alto) {
   this->alto = alto;
 }
 
+Cuadrado::Cuadrado() {
+  ancho = 0;
+  alto = 0;
+}
+
 float Cuadrado::Area() {
   return alto * ancho;
 }
