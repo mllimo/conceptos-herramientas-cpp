@@ -48,7 +48,7 @@ int main(int argc, char const *argv[]) {
   if (uno == dos && uno == uno) {
     std::cout << "Uno es igual a uno y uno es igual a uno\n";
   } else {
-    std::cout << "No es verdad la condión\n";
+    std::cout << "No es verdad la condición\n";
   }
 
   std::cout << "-----------------------------\n";
@@ -58,7 +58,7 @@ int main(int argc, char const *argv[]) {
   else if (uno != uno)
     std::cout << "Tampoco vamos a entrar\n";
   else
-    std::cout << "Como ningún condicional se cumple, entro aquí\n";
+    std::cout << "Como ningún condicional se cumple, entramos aquí\n";
 
   std::cout << "-----------------------------\n";
 

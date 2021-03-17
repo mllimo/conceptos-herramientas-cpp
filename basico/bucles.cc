@@ -20,7 +20,7 @@
 */
 
 void Imprimir() {
-  std::cout << "HOla";
+  std::cout << "Hola";
 }
 
 int main(int argc, char const *argv[]) {
@@ -30,19 +30,19 @@ int main(int argc, char const *argv[]) {
     resultado += i;
   }
   std::cout << "Resultado: " << resultado << '\n';
-  resultado = 0;
   Imprimir();
 
   // Problema con bucle while
   int j = 0;
+  resultado = 0;
   while (j <= 100) {
     resultado += j;
     ++j;
   }
   std::cout << "Resultado: " << resultado << '\n';
-  resultado = 0, j = 0;
 
   // Problema con do-while
+  resultado = 0, j = 0;
   do {
     resultado += j;
     j++;

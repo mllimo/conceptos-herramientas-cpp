@@ -19,7 +19,7 @@ bool LoContrario(bool boleano) {
   return !boleano;
 }
 
-// <tipo de dato>&
+// <tipo de dato>& -> ALIAS
 void SumoUno(int& valor_referencia) {
   ++valor_referencia;
 }
