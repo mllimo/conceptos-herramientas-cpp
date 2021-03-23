@@ -8,7 +8,7 @@ project(cmake-test)
 
 # Configuración de compilación
 set(CMAKE_CXX_STANDARD 17)                                                                      # Versión que usaremos del lenguaje
-set(CMAKE_CXX_FLAGS_DEBUG "-fsanitize=address -pedantic-errors -Wall -Wextra -DDEBUG -ggdb")   # Flags de compilación para modo debug
+set(CMAKE_CXX_FLAGS_DEBUG "-fsanitize=address -pedantic-errors -Wall -Wextra -DDEBUG -ggdb")    # Flags de compilación para modo debug
 set(CMAKE_CXX_FLAGS_RELEASE "-Wall")                                                            # Flags para versión fuera de producción
 
 # Source code
